@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/makers/:name', (req, res) => {
+app.get('/', (req, res) => {
     let textHTML = '';
     for(i=1; i<=50; i++) {
 
